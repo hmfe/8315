@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100%;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.btn {
+  font-size: 18px;
+  width: 150px;
+  height: 80px;
+  background-color: coral;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+#highlight {
+  margin-left: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
