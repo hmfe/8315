@@ -1,0 +1,103 @@
+body {
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  margin-top: 10px;
+  text-decoration-line: none;
+}
+
+button {
+  font-size: 14px;
+  border-radius: 10%;
+  border: none;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  height: 20px;
+  box-shadow: 3px solid black;
+}
+
+.main {
+  background-color: whitesmoke;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+  pad: 0;
+}
+
+.container {
+  width: 50%;
+  margin-left: 15%;
+  padding: 10%;
+  text-align: center;
+}
+
+.div-search {
+  margin-top: 120px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.selected {
+  width: 30%;
+  margin-left: 35%;
+  text-align: center;
+}
+
+.button-add {
+  background-color: blue;
+  color: white;
+}
+
+.button-remove {
+  background-color: red;
+  color: white;
+  margin-left: 25px;
+}
+
+.timestamp {
+  color: darkblue;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.item {
+  width: 400px;
+  background-color: white;
+  border-radius: 5%;
+  padding: 20px;
+  box-shadow: 90px solid black;
+}
+
+@media only screen and (max-width: 700px) {
+  button {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  #deleted {
+    font-size: 14px;
+  }
+  .item {
+    width: 300px;
+    font-size: 14px;
+  }
+}
